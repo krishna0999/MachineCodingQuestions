@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: brown; */
+}
+
+.main__container {
+  width: 40rem;
+  height: 40rem;
+  border: 1px solid #777;
+  margin-top: 2vw;
+  display: grid;
+  grid-template-columns: repeat(10, 4rem);
+}
+
+.main__containerBox {
+  border: 0.5px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
